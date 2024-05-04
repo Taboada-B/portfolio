@@ -1,5 +1,5 @@
 :root{
-    --background-color: #bdc3c7;
+    --background-color: white;
 
 }
 
@@ -7,14 +7,29 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     margin: 15px;
-    border: solid inset black;
-    background-color: var(--background-color);
-    color: white;
+    border: solid black;
+    background-color: var(--background-color);  
+    color: black;
 }
 
+.title {
+    text-align: center;
+    font-size: 80%;
+    text-decoration: underline;
+}
 
 .header {
-    text-align: right;
+    text-align: center;
     list-style-type: none;
+    font-size: 50%;
+    margin:2%;
 }
 
+li {
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.container {
+    font-size: 200%;
+}
