@@ -1,17 +1,23 @@
 :root {
+    --heading-color:grey;
     --background-color:#d1f2eb ;
-}
+    --img-radius: 10px;
+    --img-shawdow: 10px 8px 10px black;
+    }
+
 
 * body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    margin: 2%;
+    margin: 0%;
     padding:0;
-    overflow: hidden;
     background-color: var(--background-color);
     color: black;
 }
 .box {
+    background-color: var(--heading-color);
+    padding: 5%;
+    color: var(--background-color)
     
 }
 .title {
@@ -45,6 +51,9 @@ img {
     margin: 15px;
     height:200px;
     width: auto;
-    border-radius: 10px;
+    border-radius: var(--img-radius);
+    box-shadow: var(--img-shawdow);
 }
-
+h2 {
+    text-decoration: underline var(--heading-color) ;
+}
