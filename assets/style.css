@@ -33,6 +33,13 @@
     font-size: 80%;
     margin: 2% 0;
 }
+li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+img:hover {
+    transform: scale(1.05);
+}
 
 li {
     display: inline-block;
