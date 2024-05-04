@@ -1,6 +1,20 @@
-*body{
+:root{
+    --background-color: #bdc3c7;
+
+}
+
+* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    
+    margin: 15px;
+    border: solid inset black;
+    background-color: var(--background-color);
+    color: white;
+}
+
+
+.header {
+    text-align: right;
+    list-style-type: none;
 }
 
