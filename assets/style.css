@@ -5,13 +5,15 @@
 * body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    margin: 0;
+    margin: 2%;
     padding:0;
     overflow: hidden;
     background-color: var(--background-color);
     color: black;
 }
-
+.box {
+    
+}
 .title {
     text-align: center;
     text-decoration: underline;
@@ -36,5 +38,13 @@ li {
 
 .intro p {
     font-size: 50%;
-    margin-right: 65%;
+    margin: 0 60% 0 5%;
 }
+
+img {
+    margin: 15px;
+    height:200px;
+    width: auto;
+    border-radius: 10px;
+}
+
