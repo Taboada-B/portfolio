@@ -33,3 +33,7 @@ li {
 .container {
     font-size: 200%;
 }
+.container p {
+    font-size: 50%;
+    margin-right:65% ;
+}
