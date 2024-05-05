@@ -116,7 +116,7 @@ p {
 .text-content {
  flex:1;
  padding:20px;
- relativ
+
 }
 
 .image {
@@ -127,5 +127,17 @@ p {
 }
 
 
+/*attempting better positioning */
+ .section {
+ display: flex;
+ flex-direction: row;
+ margin: 0 15%;
+ }
 
-
+.text{
+max-width: 50% ;
+ }
+.picture{
+ padding: 1%;
+ max-width: 25%;
+}
