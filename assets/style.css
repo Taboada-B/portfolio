@@ -1,18 +1,20 @@
 :root {
-    --heading-color: grey;
-    --background-color: #dbeeea;
+    --heading-color: #80bd9e;
+    --background-color: tan;
+    --pop-color: #ff420e; 
+    --font-color: black;
     --img-radius: 10px;
-    --img-shawdow: 5px 5px 10px black;
+    --img-shawdow: 0px 5px 10px black;
 }
 
 
 * body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 18px;
     margin: 0%;
     padding: 0;
     background-color: var(--background-color);
-    color: black;
+    color: var(--font-color);
 }
 
 h1 {
@@ -40,15 +42,15 @@ h1 {
   }
   
 
-.box {
+.header-box {
     background-color: var(--heading-color);
     padding: 5%;
-    color: var(--background-color);
+    
 }
 
 .title {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline var(--pop-color);
     margin: 0%;
 }
 
@@ -57,13 +59,17 @@ h1 {
     list-style-type: none;
     font-size: 80%;
     margin: 2% 0;
+    
 }
 li:hover {
-    text-decoration: underline;
+    text-decoration: underline var(--pop-color);
     font-weight: bold;
-}
+    }
+
 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
+    transition-duration: .5s;
+    
 }
 
 li {
@@ -90,7 +96,7 @@ img {
 }
 
 h2 {
-    text-decoration: underline;
+    text-decoration: underline var(--pop-color);
 }
 
 h4{
@@ -101,13 +107,16 @@ p {
     font-size: 80%;
 
 }
+/*positioning the picture and text next to eachother */
 .image-text-section {
     display:flex;
-    flex-direction:row;
+    flex-direction:row; 
 }
+
 .text-content {
  flex:1;
  padding:20px;
+ relativ
 }
 
 .image {
