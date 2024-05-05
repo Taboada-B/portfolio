@@ -33,6 +33,7 @@ h3 {
 }
 
 h4 {
+    margin-left: 2%;
     font-size: 2.5 rem;
 }
 
@@ -44,7 +45,9 @@ h6 {
     font-size: 1.5 rem;
 }
 
-
+p {
+    margin-left: 2%;
+}
 .header-box {
     background-color: var(--heading-color);
     padding: 5%;
@@ -83,7 +86,6 @@ li {
 
 /*positioning the picture and text next to eachother */
 
-/*attempting better positioning */
 .section {
     display: flex;
     flex-direction: row;
@@ -95,12 +97,14 @@ li {
 
 .text {
     max-width: 50%;
+    margin:1% 3%;
 }
 
 .picture img {
     padding: 0%;
-    margin: 2% 1% ;
-    width: 60%;
+    margin: 2% 3% ;
+    width: 350px;
+    height: 250px;
     flex: 1;
     border-radius: var(--img-radius);
     box-shadow: var(--img-shawdow);
