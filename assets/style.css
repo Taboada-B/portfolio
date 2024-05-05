@@ -23,6 +23,7 @@ h1 {
 }
 
 h2 {
+    margin-left: 2%;
     font-size: 3.5rem;
     text-decoration: underline var(--pop-color);
 }
@@ -80,20 +81,6 @@ li {
     margin: 0 20px;
 }
 
-.intro {
-    font-size: 150%;
-}
-
-.intro p {
-    font-size: 50%;
-    margin: 0 60% 0 5%;
-}
-
-p {
-    margin-left: 20px;
-    font-size: .8 rem;
-}
-
 /*positioning the picture and text next to eachother */
 
 /*attempting better positioning */
@@ -110,10 +97,9 @@ p {
     max-width: 50%;
 }
 
-
 .picture img {
     padding: 0%;
-    margin: 10% 0 0 0;
+    margin: 2% 1% ;
     width: 60%;
     flex: 1;
     border-radius: var(--img-radius);
