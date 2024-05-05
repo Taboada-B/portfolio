@@ -2,7 +2,7 @@
     --heading-color: #80353b;  /*#80bd9e */
     --background-color: #E4c59E; /*tan*/
     --pop-color: #322c2b ; /*#ff420e*/ 
-    --font-color: black;
+    --font-color: white;
     --section-color:#f6e9c9;
     --img-radius: 10px;
     --img-shawdow: 0px 5px 10px black;
@@ -25,7 +25,7 @@ h1 {
 h2 {
     margin-left: 2%;
     font-size: 3.5rem;
-    text-decoration: underline var(--pop-color);
+    text-decoration: underline;
 }
 
 h3 {
@@ -48,6 +48,16 @@ h6 {
 p {
     margin-left: 2%;
 }
+
+.skills-list li {
+    flex-direction: row;
+    margin: 1%;
+    padding:1%;
+    background-color: var(--heading-color);
+    border-radius: var(--img-radius);
+    color: var(--background-color);
+}
+
 .header-box {
     background-color: var(--heading-color);
     padding: 5%;
@@ -56,7 +66,7 @@ p {
 
 .title {
     text-align: center;
-    text-decoration: underline var(--pop-color);
+    text-decoration: underline;
     margin: 0%;
 }
 
@@ -65,7 +75,7 @@ p {
     list-style-type: none;
     font-size: .8 rem;
     margin: 2% 0;
-
+    color: var(--background-color);
 }
 
 li:hover {
@@ -93,6 +103,7 @@ li {
     background-color:var(--section-color);
     margin: 2%;
     border-radius: var(--img-radius) ;
+    color:black;
 }
 
 .text {
@@ -110,6 +121,7 @@ li {
     box-shadow: var(--img-shawdow);
 }
 
-.center{
+.foot {
     text-align: center;
+    color: black;
 }
