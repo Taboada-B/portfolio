@@ -1,8 +1,9 @@
 :root {
-    --heading-color: #80bd9e;
-    --background-color: tan;
-    --pop-color: #ff420e; 
+    --heading-color: #80353b;  /*#80bd9e */
+    --background-color: #E4c59E; /*tan*/
+    --pop-color: #322c2b ; /*#ff420e*/ 
     --font-color: black;
+    --section-color:#f6e9c9;
     --img-radius: 10px;
     --img-shawdow: 0px 5px 10px black;
 }
@@ -19,28 +20,29 @@
 
 h1 {
     font-size: 4rem;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 3.5rem;
-  }
-  
-  h3 {
-    font-size: 3rem;
-  }
-  
-  h4 {
-    font-size: 2.5rem;
-  }
-  
-  h5 {
-    font-size: 2rem;
-  }
-  
-  h6 {
-    font-size: 1.5rem;
-  }
-  
+    text-decoration: underline var(--pop-color);
+}
+
+h3 {
+    font-size: 3 rem;
+}
+
+h4 {
+    font-size: 2.5 rem;
+}
+
+h5 {
+    font-size: 2 rem;
+}
+
+h6 {
+    font-size: 1.5 rem;
+}
+
 
 .header-box {
     background-color: var(--heading-color);
@@ -57,19 +59,20 @@ h1 {
 .header {
     text-align: center;
     list-style-type: none;
-    font-size: 80%;
+    font-size: .8 rem;
     margin: 2% 0;
-    
+
 }
+
 li:hover {
     text-decoration: underline var(--pop-color);
     font-weight: bold;
-    }
+}
 
 img:hover {
     transform: scale(1.02);
     transition-duration: .5s;
-    
+
 }
 
 li {
@@ -86,58 +89,37 @@ li {
     margin: 0 60% 0 5%;
 }
 
-img {
+p {
+    margin-left: 20px;
+    font-size: .8 rem;
+}
+
+/*positioning the picture and text next to eachother */
+
+/*attempting better positioning */
+.section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color:var(--section-color);
+    margin: 2%;
+    border-radius: var(--img-radius) ;
+}
+
+.text {
+    max-width: 50%;
+}
+
+
+.picture img {
+    padding: 0%;
+    margin: 10% 0 0 0;
+    width: 60%;
     flex: 1;
-    margin: 50px 20px 0px 20px;
-    height: 300px;
-    width: auto;
     border-radius: var(--img-radius);
     box-shadow: var(--img-shawdow);
 }
 
-h2 {
-    text-decoration: underline var(--pop-color);
-}
-
-h4{
-    margin-left: 10px;
-}
-p {
-    margin-left: 20px;
-    font-size: 80%;
-
-}
-/*positioning the picture and text next to eachother */
-.image-text-section {
-    display:flex;
-    flex-direction:row; 
-}
-
-.text-content {
- flex:1;
- padding:20px;
-
-}
-
-.image {
-    flex:1;
-    padding:40px 10px 10px 10px;
-    height: 200px;
-    
-}
-
-
-/*attempting better positioning */
- .section {
- display: flex;
- flex-direction: row;
- margin: 0 15%;
- }
-
-.text{
-max-width: 50% ;
- }
-.picture{
- padding: 1%;
- max-width: 25%;
+.center{
+    text-align: center;
 }
