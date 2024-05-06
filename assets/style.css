@@ -45,12 +45,10 @@ h6 {
     font-size: 1.5rem;
 }
 
-p {
-    margin-left: 2%;
-}
 .header-box {
     background-color: var(--heading-color);
-    padding: 5%;
+    padding: 3% 0;
+    width: 100%;
     
 }
 
@@ -94,31 +92,41 @@ li {
     margin: 1% 10%;
     border-radius: var(--img-radius) ;
     color:black;
-}
+    }
 
 .text {
-    max-width: 44%;
+    width: 44%;
     margin:0% 3%;
 }
 
 .picture img {
-    padding: 0%;
-    margin: 2% 5%;
+    padding: 0% ;
+    margin: 2% 10%;
     width: 350px;
     height: 250px;
     flex: 1;
     border-radius: var(--img-radius);
     box-shadow: var(--img-shawdow);
 }
+.skills-list li {
+    flex-direction: row;
+    margin: 1%;
+    padding:1%;
+    background-color: var(--heading-color);
+    border-radius: var(--img-radius);
+    color: white;
+}
 
 .foot {
     text-align: center;
     color: black;
 }
+
 /* will need to add for mobile
 @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    .section {
+        flex-direction: column; 
+    }
     }
   }
   */
