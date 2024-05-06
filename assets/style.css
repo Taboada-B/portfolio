@@ -2,7 +2,7 @@
     --heading-color: #80353b;  /*#80bd9e */
     --background-color: #E4c59E; /*tan*/
     --pop-color: #322c2b ; /*#ff420e*/ 
-    --font-color: white;
+    --font-color: black;
     --section-color:#f6e9c9;
     --img-radius: 10px;
     --img-shawdow: 0px 5px 10px black;
@@ -23,44 +23,40 @@ h1 {
 }
 
 h2 {
-    margin-left: 10%;
+    margin-left: 2%;
     font-size: 3.5rem;
-    text-decoration: underline;
+    text-decoration: underline var(--pop-color);
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 3 rem;
 }
 
 h4 {
     margin-left: 2%;
-    font-size: 2.5rem;
+    font-size: 2.5 rem;
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 2 rem;
 }
 
 h6 {
-    font-size: 1.5rem;
+    font-size: 1.5 rem;
 }
 
 p {
     margin-left: 2%;
 }
-
 .header-box {
     background-color: var(--heading-color);
     padding: 5%;
     
 }
 
-
-
-
 .title {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline var(--pop-color);
     margin: 0%;
 }
 
@@ -69,11 +65,11 @@ p {
     list-style-type: none;
     font-size: .8 rem;
     margin: 2% 0;
-    color: var(--background-color);
+
 }
 
 li:hover {
-    text-decoration: underline white;
+    text-decoration: underline var(--pop-color);
     font-weight: bold;
 }
 
@@ -88,14 +84,6 @@ li {
     margin: 0 20px;
 }
 
-.skills-list li {
-    flex-direction: row;
-    margin: 1%;
-    padding:1%;
-    background-color: var(--heading-color);
-    border-radius: var(--img-radius);
-    color: white;
-}
 /*positioning the picture and text next to eachother */
 
 .section {
@@ -103,27 +91,32 @@ li {
     flex-direction: row;
     width: 80%;
     background-color:var(--section-color);
-    margin: 1% 10%;
+    margin: 2%;
     border-radius: var(--img-radius) ;
-    color:black;
 }
 
 .text {
-    width: 100%;
-    margin:1%;
+    max-width: 50%;
+    margin:1% 3%;
 }
 
 .picture img {
     padding: 0%;
-    margin: 1% ;
-    width: 47%;
-    height: auto;
+    margin: 2% 3% ;
+    width: 350px;
+    height: 250px;
     flex: 1;
     border-radius: var(--img-radius);
     box-shadow: var(--img-shawdow);
 }
 
-.foot {
+.center{
     text-align: center;
-    color: black;
 }
+/* will need to add for mobile
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  */
