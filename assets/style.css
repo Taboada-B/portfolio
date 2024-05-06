@@ -25,7 +25,8 @@ h1 {
 h2 {
     margin-left: 10%;
     font-size: 3.5rem;
-    text-decoration: underline ;
+    text-decoration: underline;
+    color: var(--heading-color)
 }
 
 h3 {
@@ -33,7 +34,6 @@ h3 {
 }
 
 h4 {
-    margin-left: 0%;
     font-size: 2.5rem;
 }
 
@@ -58,11 +58,12 @@ h6 {
     margin: 0%;
 }
 
-.header {
+.nav {
     text-align: center;
     list-style-type: none;
     font-size: .8 rem;
     margin: 2% 0;
+    color: var(--background-color) ;
 
 }
 
@@ -81,10 +82,12 @@ li {
     display: inline-block;
     margin: 0 20px;
 }
-
+.section-1 {
+    margin-left: 2%;
+}
 /*positioning the picture and text next to eachother */
 
-.section {
+.section-2 {
     display: flex;
     flex-direction: row;
     width: 80%;
