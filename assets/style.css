@@ -2,7 +2,7 @@
     --heading-color: #80353b;  /*#80bd9e */
     --background-color: #E4c59E; /*tan*/
     --pop-color: #322c2b ; /*#ff420e*/ 
-    --font-color: black;
+    --font-color: white;
     --section-color:#f6e9c9;
     --img-radius: 10px;
     --img-shawdow: 0px 5px 10px black;
@@ -23,26 +23,26 @@ h1 {
 }
 
 h2 {
-    margin-left: 2%;
+    margin-left: 10%;
     font-size: 3.5rem;
-    text-decoration: underline var(--pop-color);
+    text-decoration: underline ;
 }
 
 h3 {
-    font-size: 3 rem;
+    font-size: 3rem;
 }
 
 h4 {
-    margin-left: 2%;
-    font-size: 2.5 rem;
+    margin-left: 0%;
+    font-size: 2.5rem;
 }
 
 h5 {
-    font-size: 2 rem;
+    font-size: 2rem;
 }
 
 h6 {
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -56,7 +56,7 @@ p {
 
 .title {
     text-align: center;
-    text-decoration: underline var(--pop-color);
+    text-decoration: underline ;
     margin: 0%;
 }
 
@@ -69,7 +69,7 @@ p {
 }
 
 li:hover {
-    text-decoration: underline var(--pop-color);
+    text-decoration: underline white;
     font-weight: bold;
 }
 
@@ -91,18 +91,19 @@ li {
     flex-direction: row;
     width: 80%;
     background-color:var(--section-color);
-    margin: 2%;
+    margin: 1% 10%;
     border-radius: var(--img-radius) ;
+    color:black;
 }
 
 .text {
-    max-width: 50%;
-    margin:1% 3%;
+    max-width: 44%;
+    margin:0% 3%;
 }
 
 .picture img {
     padding: 0%;
-    margin: 2% 3% ;
+    margin: 2% 5%;
     width: 350px;
     height: 250px;
     flex: 1;
@@ -110,8 +111,9 @@ li {
     box-shadow: var(--img-shawdow);
 }
 
-.center{
+.foot {
     text-align: center;
+    color: black;
 }
 /* will need to add for mobile
 @media screen and (max-width: 768px) {
